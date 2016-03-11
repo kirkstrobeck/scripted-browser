@@ -1,6 +1,6 @@
 {
   "name": "scripted-browser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A local runner for the New Relic Synthetics Scripted Browser",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "chromedriver": "^2.21.2",
     "minimist": "^1.2.0",
     "selenium-webdriver": "^2.52.0",
-    "strict-version": "0.0.2"
+    "strict-version": "latest"
   },
   "repository": {
     "type": "git",
