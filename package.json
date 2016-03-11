@@ -1,6 +1,6 @@
 {
   "name": "scripted-browser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A local runner for the New Relic Synthetics Scripted Browser",
   "main": "index.js",
   "scripts": {
