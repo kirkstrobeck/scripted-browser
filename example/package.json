@@ -1,0 +1,14 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "search-a-website.js",
+  "scripts": {
+    "run": "node node_modules/scripted-browser --run=search-a-website"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "scripted-browser": "latest"
+  }
+}
