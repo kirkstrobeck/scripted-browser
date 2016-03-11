@@ -12,9 +12,7 @@
   "engines": {
     "node": "v5.5.0"
   },
-  "author": {
-    "name": "https://github.com/kirkstrobeck/scripted-browser/graphs/contributors"
-  },
+  "author": "https://github.com/kirkstrobeck/scripted-browser/graphs/contributors",
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^2.21.2",
@@ -39,5 +37,9 @@
     "webdriver",
     "chrome"
   ],
-  "engine-strict": true
+  "engine-strict": true,
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {}
 }
