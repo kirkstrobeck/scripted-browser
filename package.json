@@ -1,30 +1,30 @@
 {
   "name": "scripted-browser",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A local runner for the New Relic Synthetics Scripted Browser",
   "main": "index.js",
   "scripts": {
     "test": "semistandard"
   },
   "bugs": {
-    "url": "https://github.com/kirkstrobeck/scripted-browser/issues"
+    "url": "https://github.com/Yobikap/scripted-browser/issues"
   },
   "engines": {
-    "node": "v5.5.0"
+    "node": "*"
   },
-  "author": "https://github.com/kirkstrobeck/scripted-browser/graphs/contributors",
+  "author": "https://github.com/Yobikap/scripted-browser/graphs/contributors",
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^2.21.2",
     "minimist": "^1.2.0",
-    "selenium-webdriver": "^2.52.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
     "strict-version": "latest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kirkstrobeck/scripted-browser.git"
+    "url": "git+https://github.com/Yobikap/scripted-browser.git"
   },
-  "homepage": "https://github.com/kirkstrobeck/scripted-browser",
+  "homepage": "https://github.com/Yobikap/scripted-browser",
   "keywords": [
     "new relic",
     "synthetics",
@@ -37,7 +37,6 @@
     "webdriver",
     "chrome"
   ],
-  "engine-strict": true,
   "directories": {
     "example": "example"
   },
