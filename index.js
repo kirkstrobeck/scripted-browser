@@ -6,7 +6,7 @@ console.log('=== SCRIPTED BROWSER ===');
 
 'use strict';
 
-var $ = GLOBAL.$ = {};
+var $ = global.$ = {};
 var argv = require('minimist')(process.argv.slice(2));
 var action = Object.keys(argv)[1];
 $[action] = argv[action];
