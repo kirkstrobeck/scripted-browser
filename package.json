@@ -15,9 +15,9 @@
   "author": "https://github.com/Yobikap/scripted-browser/graphs/contributors",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^2.21.2",
+    "chromedriver": "^2.31.0",
     "minimist": "^1.2.0",
-    "selenium-webdriver": "^4.0.0-alpha.1",
+    "selenium-webdriver": "^3.0.0",
     "strict-version": "latest"
   },
   "repository": {
