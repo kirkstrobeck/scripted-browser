@@ -17,6 +17,7 @@
   "dependencies": {
     "chromedriver": "^2.31.0",
     "minimist": "^1.2.0",
+    "request": "^2.88.0",
     "selenium-webdriver": "^3.0.0",
     "strict-version": "latest"
   },
