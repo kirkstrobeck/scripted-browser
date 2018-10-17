@@ -10,7 +10,7 @@
     "url": "https://github.com/Yobikap/scripted-browser/issues"
   },
   "engines": {
-    "node": "*"
+    "node": "v8.0.0"
   },
   "author": "https://github.com/Yobikap/scripted-browser/graphs/contributors",
   "license": "ISC",
