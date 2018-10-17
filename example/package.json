@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "scripted-browser": "latest"
+    "scripted-browser": "git+https://github.com/Yobikap/scripted-browser.git"
   },
   "engines": {
-    "node": "v5.5.0"
+    "node": "v8.0.0"
   },
   "engine-strict": true
 }

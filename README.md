@@ -2,8 +2,6 @@
 
 **A local runner for the New Relic Synthetics Scripted Browser**
 
-[![Circle CI](https://circleci.com/gh/kirkstrobeck/scripted-browser.svg?style=svg)](https://circleci.com/gh/kirkstrobeck/scripted-browser)
-
 [New Relic](http://newrelic.com/) came up with a solution for running [Selenium](http://www.seleniumhq.org/) on a scheduled frequency. It also features a performance dashboard and a data-driven SLA. This is a new feature offered under their [Synthecits] monitoring suite called Scripting Monitors. The Selenium runner monitor type is called a “[Scripted Browser](https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/scripting-monitors/write-scripted-browsers#overview).”
 
 Scripted Browser uses a [syntax](https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/scripting-monitors/scripted-browser-examples) for the runner that is unique to New Relic.
@@ -29,4 +27,12 @@ To run a test out of the `./spec` folder
 
 ```bash
 node node_modules/scripted-browser --run=search-a-website
+```
+
+#### Running with proxy
+
+To run a test out of the `./spec` folder
+
+```bash
+node node_modules/scripted-browser --run=search-a-website --proxy=localhost:8888
 ```
